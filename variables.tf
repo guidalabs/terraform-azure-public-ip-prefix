@@ -13,3 +13,9 @@ variable "location" {
   type    = string
   default = "westeurope"
 }
+
+variable "tags" {
+  type        = map(string)
+  description = "Any tags can be set"
+  default     = {}
+}
